@@ -31,5 +31,7 @@
 
 .hero h1 span{
     background: linear-gradient(270deg, #C33764 10%, #1D2671 100%);
-    cursor: pointer;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
