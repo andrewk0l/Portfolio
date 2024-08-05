@@ -1,0 +1,35 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    font-size: 23px;
+}
+
+.profile-image{
+   width: 220px;
+   height: 250px;
+   border-radius: 50%; 
+   object-fit: cover;
+   border: 2px solid #ccc;
+   transition: 0.3s;
+   cursor: pointer;
+   margin-top: 100px;
+}
+
+.profile-image:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.hero h1 span{
+    background: linear-gradient(270deg, #C33764 10%, #1D2671 100%);
+    cursor: pointer;
+}

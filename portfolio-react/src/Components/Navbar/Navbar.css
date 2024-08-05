@@ -10,14 +10,14 @@
     align-items: center;
     list-style: none;
     gap: 60px;
-    font-size: 17px;
+    font-size: 23px;
 }
 
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
     background: linear-gradient(267deg, #09203F  0.36%,  #537895 102.06%);
-    font-size: 22px;
+    font-size: 30px;
     cursor: pointer;
     transition: 0.5s;
 }
