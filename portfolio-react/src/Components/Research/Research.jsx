@@ -1,6 +1,7 @@
 import React from 'react'
 import './Research.css'
 import { Research_data } from '../../assets/Research'
+import arrow from '../../assets/arrow.svg'
 
 const Research = () => {
     return (
@@ -14,12 +15,13 @@ const Research = () => {
                         <h3>{research.r_no}</h3>
                         <h2>{research.r_name}</h2>
                         <p>{research.r_desc}</p>
+                        <img src= {arrow} alt=''/>
                     </div>
                 })}
 
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Research
