@@ -19,7 +19,7 @@ const Navbar = () => {
             <li><AnchorLink className='anchor-link' offset={45} href='#research'><p onClick={() =>setMenu("research")}>Research</p></AnchorLink>{menu === "research" && <img src={line} alt='' />}</li>  
             <li><AnchorLink className='anchor-link' offset={45} href='#contact'><p onClick={() =>setMenu("contact")}>Contact</p></AnchorLink>{menu === "contact" && <img src={line} alt='' />}</li>  
         </ul>
-        <div className="nav-connect">Connect with me</div>
+        <div className="nav-connect"><AnchorLink className='anchor-link' offset={45} href='#contact'>Connect with me</AnchorLink></div>
 
     </div>
   )
