@@ -13,13 +13,13 @@
 
 .contact-title h1{
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
 }
 
 .contact-section{
     display: flex;
-    gap: 150px;
+    gap: 200px;
 }
 
 .contact-left{
@@ -29,12 +29,13 @@
 }
 
 .contact-left h1{
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 700;
     background: linear-gradient(267deg, #09203F  0.36%,  #537895 102.06%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 .contact-left p{

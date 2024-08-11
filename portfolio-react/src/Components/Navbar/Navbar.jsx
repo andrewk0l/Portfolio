@@ -11,15 +11,15 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <img src ={logo} alt='' />
-        <ul className="nav-menu"> 
-            <li><AnchorLink className='anchor-link'  href='#home'><p onClick={() =>setMenu("home")}>Home</p></AnchorLink>{menu === "home" && <img src={line} alt='' />}</li>       
-            <li><AnchorLink className='anchor-link' offset={45} href='#about'><p onClick={() =>setMenu("about")}>About Me</p></AnchorLink>{menu === "about" && <img src={line} alt='' />}</li>     
-            <li><AnchorLink className='anchor-link' offset={45} href='#achievements'><p onClick={() =>setMenu("achievements")}>Achievements</p></AnchorLink>{menu === "achievements" && <img src={line} alt='' />}</li>  
-            <li><AnchorLink className='anchor-link' offset={45} href='#research'><p onClick={() =>setMenu("research")}>Research</p></AnchorLink>{menu === "research" && <img src={line} alt='' />}</li>  
-            <li><AnchorLink className='anchor-link' offset={45} href='#contact'><p onClick={() =>setMenu("contact")}>Contact</p></AnchorLink>{menu === "contact" && <img src={line} alt='' />}</li>  
-        </ul>
-        <div className="nav-connect"><AnchorLink className='anchor-link' offset={45} href='#contact'>Connect with me</AnchorLink></div>
+      <img className='logo' src={logo} alt='' />
+      <ul className="nav-menu">
+        <li><AnchorLink className='anchor-link' href='#home'><p onClick={() => setMenu("home")}>Home</p></AnchorLink>{menu === "home" && <img src={line} alt='' />}</li>
+        <li><AnchorLink className='anchor-link' offset={0} href='#about'><p onClick={() => setMenu("about")}>About Me</p></AnchorLink>{menu === "about" && <img src={line} alt='' />}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#achievements'><p onClick={() => setMenu("achievements")}>Achievements</p></AnchorLink>{menu === "achievements" && <img src={line} alt='' />}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#research'><p onClick={() => setMenu("research")}>Research</p></AnchorLink>{menu === "research" && <img src={line} alt='' />}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() => setMenu("contact")}>Contact</p></AnchorLink>{menu === "contact" && <img src={line} alt='' />}</li>
+      </ul>
+      <div className="nav-connect"><AnchorLink className='anchor-link' offset={45} href='#contact'>Connect with me</AnchorLink></div>
 
     </div>
   )

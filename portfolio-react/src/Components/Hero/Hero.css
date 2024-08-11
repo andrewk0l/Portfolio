@@ -4,17 +4,18 @@
     flex-direction: column;
     gap: 35px;
     font-size: 23px;
+    margin-top: -80px;
 }
 
 .profile-image{
-   width: 220px;
-   height: 250px;
+   width: 175px;
+   height: 175px;
    border-radius: 50%; 
    object-fit: cover;
    border: 2px solid #ccc;
    transition: 0.3s;
    cursor: pointer;
-   margin-top: 100px;
+   margin-top: 17px;
 }
 
 .profile-image:hover{

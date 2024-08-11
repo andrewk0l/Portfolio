@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 40px;
     margin: 80px 170px;
 }
 
@@ -13,8 +13,9 @@
 
 .research-title h1 {
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 600;
+    margin-top: -10px;
 }
 
 .research-format{
@@ -42,6 +43,7 @@
     grid-template-columns: 3fr;
     gap: 40px;
     margin-bottom: 80px;
+    margin-top: -30px;
 }
 
 .research-format h3{

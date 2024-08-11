@@ -1,11 +1,17 @@
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 60px;
+    margin: -70px 60px;
+    padding: 0px;
 }
 
-.nav-menu{
+.logo {
+    width: 275px;
+    height: 275px;
+}
+
+.nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
@@ -13,31 +19,31 @@
     font-size: 24px;
 }
 
-.nav-connect{
+.nav-connect {
     padding: 20px 20px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #09203F  0.36%,  #537895 102.06%);
+    background: linear-gradient(267deg, #09203F 0.36%, #537895 102.06%);
     font-size: 24px;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.nav-connect:hover{
+.nav-connect:hover {
     transform: scale(1.07);
 }
 
-.nav-menu li{
+.nav-menu li {
     display: flex;
     flex-direction: column;
     cursor: pointer;
 }
 
-.nav-menu li img{
+.nav-menu li img {
     display: flex;
     margin: auto;
 }
 
-.anchor-link{
+.anchor-link {
     text-decoration: none;
     color: white;
 }
