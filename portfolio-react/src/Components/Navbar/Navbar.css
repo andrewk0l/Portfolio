@@ -26,3 +26,13 @@
     transform: scale(1.07);
 }
 
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}

@@ -1,12 +1,11 @@
 import React from 'react'
 import './Contact.css'
 import mail_icon from '../../assets/mail.png'
-import linkedin from '../../assets/linkedin.png'
 import call_icon from '../../assets/call.png'
 
 const Contact = () => {
     return (
-        <div className='contact'>
+        <div id='contact' className='contact'>
             <div className="contact-title">
                 <h1>Contact me</h1>
             </div>

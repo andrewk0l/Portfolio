@@ -5,7 +5,7 @@ import arrow from '../../assets/arrow.svg'
 
 const Research = () => {
     return (
-        <div className='research'>
+        <div id='research' className='research'>
             <div className="research-title">
                 <h1>My Research Projects</h1>
             </div>
