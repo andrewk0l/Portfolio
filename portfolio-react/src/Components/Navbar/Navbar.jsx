@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import line from '../../assets/line.png'
@@ -10,13 +10,22 @@ const Navbar = () => {
 
 
   const [menu, setMenu] = useState("home")
+  const menuRef = useRef();
+
+  const openMenu = () => {
+    menuRef.current.style.right="0"
+  }
+  const closeMenu = () => {
+    menuRef.current.style.right="-350px"
+  }
+
 
   return (
     <div className='navbar'>
       <img className='logo' src={logo} alt='' />
-      <img src={menu_open} alt='' className='nav-mob-open'/>
-      <ul className="nav-menu">
-        <img src={menu_close} alt='' className='nav-mob-close'/>
+      <img src={menu_open} onClick={openMenu} alt='' className='nav-mob-open'/>
+      <ul ref={menuRef} className="nav-menu">
+        <img src={menu_close} onClick={closeMenu} alt='' className='nav-mob-close'/>
         <li><AnchorLink className='anchor-link' href='#home'><p onClick={() => setMenu("home")}>Home</p></AnchorLink>{menu === "home" && <img src={line} alt='' />}</li>
         <li><AnchorLink className='anchor-link' offset={0} href='#about'><p onClick={() => setMenu("about")}>About Me</p></AnchorLink>{menu === "about" && <img src={line} alt='' />}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#achievements'><p onClick={() => setMenu("achievements")}>Achievements</p></AnchorLink>{menu === "achievements" && <img src={line} alt='' />}</li>
