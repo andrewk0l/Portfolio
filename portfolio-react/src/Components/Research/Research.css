@@ -72,3 +72,29 @@
 .research-container:hover{
     background-color: rgb(34, 37, 34);
 }
+
+@media(max-width:768px){
+    .research{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+    .research-title h1{
+        padding: 0;
+        font-size: 35px;
+    }
+    .research-format{
+        gap: 20px;
+        padding: 32px;
+    }
+    .research-format h2{
+        font-size: 28px;
+    }
+    .research-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+}
+
+
